@@ -102,7 +102,14 @@ NFR-05: Se dedica a usuarios casuales que desean pedir turno, asi que se conside
 NFR-06: Se cree que, al ser una plataforma chica para empresas u organizaciones de barberías, no se va a presentar una masa en gran cantidad de usuarios, solo algunos casuales que quieran arreglarse[cite: 1].
 
 ---
-
 ## Verificación[cite: 1]
 
 Las verificaciones están pendientes[cite: 1].
+
+# Requisitos Funcionales (Orientados a los datos)
+El sistema debe: 
+1. Permitir registrar un cliente y un turno las veinticuatro horas del día.
+2. Impedir a un cliente registrar un barbero, sucursal, servicio, método de pago, horario, calle.
+3. Permitir imprimir la tabla de turnos de un día específico junto con el monto total de dinero.
+4. Impedir la existencia de un turno en un horario no laboral para el barbero, en uno donde la sucursal está cerrada, en uno cuya hora de inicio no entra dentro del rango horario 00:00-23:59. 
+5. Impedir el registro de un nuevo día de la semana.
