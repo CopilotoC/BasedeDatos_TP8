@@ -113,3 +113,16 @@ El sistema debe:
 3. Permitir imprimir la tabla de turnos de un día específico junto con el monto total de dinero.
 4. Impedir la existencia de un turno en un horario no laboral para el barbero, en uno donde la sucursal está cerrada, en uno cuya hora de inicio no entra dentro del rango horario 00:00-23:59. 
 5. Impedir el registro de un nuevo día de la semana.
+
+# Listado Descriptivo de Consultas Principales
+El sistema debe poder
+1. Modificar el estado de un turno una vez que el tiempo estimado del servicio finalizó desde el horario y fecha que en el que se programó el turno.
+2. Devolver a todos los barberos junto con su horario laboral, servicios que da y sucursal en la que trabaja.
+3. Devolver todas las direcciones de todas las sucursales.
+4. Devolver todo el dinero adquirido en un período de tiempo específico.
+5. Registrar nuevos métodos e pago junto con las sucursales que lo admiten, al igual que los servicios.
+6. Registrar a las personas mediante su DNI como Identificador único.
+7. Modificar el estado de los turnos siempre y cuando no estén completados.
+8. Permitir el inicio de sesión a todas horas.
+9. Cambiar el tema de la aplicación dependiendo de la disposición del usuario y la hora.
+10. Eliminar barberos.
